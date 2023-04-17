@@ -63,7 +63,7 @@ function zaidimas(zaidejoPasirinkimas){
   document.querySelector('.rezultatas')
   .innerText = `${rezultatas}`;
   document.querySelector('.pasirinkimai')
-  .innerHTML = `<div class="veiksmas-img"><p class="veiksmas-zaidejas">Jūs <img src="Images/${zaidejoPasirinkimas}.png" alt=""></p></div><div class="veiksmas-img"><p class="veiksmas-kompiuteris"><img src="Images/${kompiuteris}.png" alt=""> Kompiuteris</p></div>`;
+  .innerHTML = `<div class="veiksmas-img"><p class="veiksmas-zaidejas">Jūs <img src="images/${zaidejoPasirinkimas}.png" alt=""></p></div><div class="veiksmas-img"><p class="veiksmas-kompiuteris"><img src="images/${kompiuteris}.png" alt=""> Kompiuteris</p></div>`;
   atnaujintiStatistika();
   
 }
