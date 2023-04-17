@@ -90,4 +90,7 @@ img{
   .isvalytiStatistika{
     font-size: 15px;
   }
+  .veiksmas-zaidejas, .veiksmas-kompiuteris{
+    font-size: 12px;
+  }
 }
