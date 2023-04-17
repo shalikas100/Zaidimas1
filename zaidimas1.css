@@ -1,0 +1,93 @@
+body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #2951a2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zaidimo-cont{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.zaidimas{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px -5px 20px black;
+    margin-top: 40px;
+}
+.veiksmai h3{
+  color: white;
+  text-shadow: 5px -5px 5px black;
+}
+.veiksmas-btn{
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #2951a2;
+  border-radius: 50%;
+  padding: 20px;
+}
+img{
+  height: 50px;
+}
+.rez{
+  margin: 0 10px;
+}
+.pasirinkimai, .reset-btn, .rezultatas{
+  margin-top: 20px;
+}
+.statistika{
+  font-size: 10px;
+}
+
+.veiksmas-btn:hover{
+  background-color:#2951a2;
+}
+@media (max-width:768px){
+  .veiksmai h3{
+    font-size: 20px;
+    text-align: center;
+  }
+  .veiksmas-btn{
+    background-color: transparent;
+    height: 75px;
+    width: 75px;
+    border: 3px solid #2951a2;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  img{
+    height: 40px;
+  }
+  .zaidimas{
+    padding: 10px;
+  }
+}
+
+@media (max-width:576px){
+  .veiksmai h3{
+    font-size: 12px;
+  }
+  .statistika{
+    display: flex;
+    flex-direction: column;
+  }
+  .veiksmas-btn{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border: 3px solid #2951a2;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  img{
+    height: 20px;
+  }
+  .isvalytiStatistika{
+    font-size: 15px;
+  }
+}
